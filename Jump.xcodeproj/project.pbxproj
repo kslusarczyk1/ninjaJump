@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F9D0D2F1F1D0FE70011F51A /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9D0D2E1F1D0FE70011F51A /* music.mp3 */; };
 		3FC146281F13B44F000A6F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC146271F13B44F000A6F2F /* AppDelegate.swift */; };
 		3FC1462A1F13B44F000A6F2F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FC146291F13B44F000A6F2F /* GameScene.sks */; };
 		3FC1462C1F13B44F000A6F2F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1462B1F13B44F000A6F2F /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F9D0D2E1F1D0FE70011F51A /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		3FC146241F13B44F000A6F2F /* Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC146271F13B44F000A6F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC146291F13B44F000A6F2F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				3FC146311F13B44F000A6F2F /* Main.storyboard */,
 				3FC146341F13B44F000A6F2F /* Assets.xcassets */,
 				3FC146361F13B44F000A6F2F /* LaunchScreen.storyboard */,
+				3F9D0D2E1F1D0FE70011F51A /* music.mp3 */,
 				3FC146391F13B44F000A6F2F /* Info.plist */,
 			);
 			path = Jump;
@@ -202,7 +205,7 @@
 				TargetAttributes = {
 					3FC146231F13B44F000A6F2F = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = W3E39C7JJ5;
+						DevelopmentTeam = 46WUMBDEY9;
 						ProvisioningStyle = Automatic;
 					};
 					3FC1463D1F13B44F000A6F2F = {
@@ -246,6 +249,7 @@
 			files = (
 				3FC146331F13B44F000A6F2F /* Main.storyboard in Resources */,
 				3FC1462A1F13B44F000A6F2F /* GameScene.sks in Resources */,
+				3F9D0D2F1F1D0FE70011F51A /* music.mp3 in Resources */,
 				3FC146351F13B44F000A6F2F /* Assets.xcassets in Resources */,
 				3FC146381F13B44F000A6F2F /* LaunchScreen.storyboard in Resources */,
 				3FC1462C1F13B44F000A6F2F /* Actions.sks in Resources */,
@@ -429,10 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W3E39C7JJ5;
+				DEVELOPMENT_TEAM = 46WUMBDEY9;
 				INFOPLIST_FILE = Jump/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = whatever.Jump;
+				PRODUCT_BUNDLE_IDENTIFIER = kimslu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,10 +446,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W3E39C7JJ5;
+				DEVELOPMENT_TEAM = 46WUMBDEY9;
 				INFOPLIST_FILE = Jump/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = whatever.Jump;
+				PRODUCT_BUNDLE_IDENTIFIER = kimslu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -528,6 +532,7 @@
 				3FC146541F13B44F000A6F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FC146551F13B44F000A6F2F /* Build configuration list for PBXNativeTarget "JumpTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				3FC146571F13B44F000A6F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FC146581F13B44F000A6F2F /* Build configuration list for PBXNativeTarget "JumpUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				3FC1465A1F13B44F000A6F2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
